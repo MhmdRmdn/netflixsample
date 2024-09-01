@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Netflix</title>
+        <link rel="icon" href="thumbnails/netflixicon.png">
+    </head>
+    <body>
+        <div class="header">
+            <img class="logo" src="Images/logo3.png">
+        </div>
+        <h2>Who's watching?</h2>
+        <div class="user-container"> 
+            
+            <div class="users">
+                <div class="user">
+                    <a href="Netflix.html">
+                        <img class="user-icon" src="Images/usericon.png">   
+                        <p class="username">User1</p>
+                    </a>
+                    
+                </div>
+                <div class="user">
+                    <a href="Netflix.html">
+                    <img class="user-icon" src="Images/usericon2.png">
+                    <p class="username">User2</p>
+                    </a>
+                </div>
+                <div class="user">
+                    <a href="Netflix.html">
+                    <img class="user-icon" src="Images/usericon3.png">
+                    <p class="username">User3</p>
+                    </a>
+                </div>
+                <div class="user">
+                    <img class="adduser" src="Images/netflix-create-new-profile-fp.png">
+                    <p class="addusername">Add Profile</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="manage-profile-box">
+            <button class="manage-profile">MANAGE PROFILES</button>
+        </div>
+    </body>
+</html>
+<style>
+       * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    a{
+        text-decoration: none;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: black;
+        margin-bottom: 100px;
+
+    }
+    .logo{
+        height: 70px;
+        
+    }
+    body{
+        text-align: center;
+       background-color: black;
+    }
+    h2{
+        color: white;
+        font-size: 30px;
+        font-family: Arial, sans-serif;
+    }
+    .user-container{
+       text-align: center;
+       background-color: black;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+      width: 800px;
+      margin-left: 405px;
+       
+    }
+    .users{
+        display: flex;
+        flex-direction: row;
+        
+        background-color: black;
+        justify-content: space-between;
+        width: 1050px;
+        padding: 30px;
+    }
+    .username{
+        color: #333;
+        font: bold;
+        font-family: Arial, sans-serif;
+
+    }
+    .user-icon{
+        height: 170px;
+    }
+    .user-icon:hover{
+        height: 175px;
+    }
+    .adduser{
+        height: 100px;
+        margin-top: 30px;
+    }
+    .adduser:hover{
+        height: 110px;
+    }
+    .addusername{
+        color: #333;
+        font: bold;
+        font-family: Arial, sans-serif;
+        margin-top: 37px;
+
+    }
+    .manage-profile{
+        border-width: 2px;
+        width: 200px;
+        height: 30px;
+        color: lightgray;
+        border-color: white;
+        background-color: black;
+    }
+    .manage-profile:hover{
+        height: 40px;
+        width: 210px;
+    }
+</style>
